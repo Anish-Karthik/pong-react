@@ -10,7 +10,7 @@ import GameModal from "./GameModal";
 const GameScreen = () => {
   return (
     <main
-      className={`border border-black mx-auto game relative overflow-hidden`}
+      className={`border border-black mx-auto game relative overflow-hidden game`}
       style={{
         width: canvasWidth,
         height: canvasHeight,

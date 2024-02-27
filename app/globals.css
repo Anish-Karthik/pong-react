@@ -71,6 +71,9 @@
     @apply border-border;
   }
   body {
-    @apply text-foreground h-screen w-full flex items-center justify-center overflow-hidden bg-blue-400 z-50;
+    @apply text-foreground h-screen w-full flex items-center justify-center overflow-hidden z-50;
+  }
+  .game {
+    @apply bg-cyan-300;
   }
 }

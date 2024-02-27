@@ -6,8 +6,8 @@ const Score = () => {
 
   return (
     <div className="flex w-full justify-between">
-      <div>scoreP1: {scoreP1}</div>
-      <div>scoreP2: {scoreP2}</div>
+      <div className="text-lg font-semibold px-2 py-2">P1 Score: {scoreP1}</div>
+      <div className="text-lg font-semibold px-2 py-2">P2 Score: {scoreP2}</div>
     </div>
   );
 };

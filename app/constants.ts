@@ -17,7 +17,7 @@ export const ballCoords = {
 export const maxSpeedX = 8 * 1.3;
 export const maxSpeedY = 8 * 1.1;
 
-export const winningScore = 1
+export const winningScore = 5;
 
 export const initialState = {
   winner: null,
@@ -30,4 +30,4 @@ export const initialState = {
   lPadCoordY: lPadCoords.y,
   rPadCoordY: rPadCoords.y,
   ballCoords,
-}
+};
