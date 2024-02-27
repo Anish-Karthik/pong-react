@@ -16,3 +16,18 @@ export const ballCoords = {
 
 export const maxSpeedX = 8 * 1.3;
 export const maxSpeedY = 8 * 1.1;
+
+export const winningScore = 1
+
+export const initialState = {
+  winner: null,
+  isStarted: false,
+  isPaused: false,
+  isGameOver: false,
+  ballSpeed: ballSpeed,
+  scoreP1: 0,
+  scoreP2: 0,
+  lPadCoordY: lPadCoords.y,
+  rPadCoordY: rPadCoords.y,
+  ballCoords,
+}
